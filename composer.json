@@ -1,0 +1,19 @@
+{
+    "name": "robertocarlos/learnphpunit",
+    "description": "Learning about PHPUnit",
+    "authors": [
+        {
+            "name": "Roberto Carlos",
+            "email": "robertocarlosdeveloper@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "nunomaduro/collision": "^5.10"
+    }
+}
