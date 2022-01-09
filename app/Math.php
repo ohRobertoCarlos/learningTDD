@@ -1,7 +1,8 @@
 <?php
 namespace App;
 
-class Math{
+class Math
+{
 
     public function sum(int $a, int $b)
     {
@@ -11,5 +12,15 @@ class Math{
     public function multiply(int $a, int $b)
     {
         return intval($a * $b);
+    }
+
+    public function subtract(int $a, int $b)
+    {
+        return intval($a - $b);
+    }
+
+    public function split(int $a, int $b)
+    {
+        return floor($a / $b);
     }
 }

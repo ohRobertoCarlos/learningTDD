@@ -69,10 +69,52 @@ class MathTest extends TestCase
         $this->assertEquals(4,$result);
     }
 
-    public function test_should_multiply_number_to_zero()
+    public function test_should_multiply_number_by_zero()
     {
         $result = $this->calculator->multiply(2,0);
 
         $this->assertEquals(0,$result);
+    }
+
+    public function test_should_subtract_two_numbers_negatives()
+    {
+        $result = $this->calculator->subtract(-5,-6);
+
+        $this->assertEquals(1,$result);
+    }
+
+    public function test_should_subtract_number_negative_and_positive()
+    {
+        $result = $this->calculator->subtract(5,-6);
+
+        $this->assertEquals(11,$result);
+    }
+
+    public function test_should_subtract_two_numbers_positives()
+    {
+        $result = $this->calculator->subtract(5,2);
+
+        $this->assertEquals(3,$result);
+    }
+
+    public function test_should_subtract_number_by_zero()
+    {
+        $result = $this->calculator->subtract(0,5);
+
+        $this->assertEquals(-5,$result);
+    }
+
+    public function test_should_split_two_odd_numbers_and_return_integer_part()
+    {
+        $result = $this->calculator->split(7,3);
+
+        $this->assertEquals(2,$result);
+    }
+
+    public function test_should_split_two_even_numbers()
+    {
+        $result = $this->calculator->split(8,2);
+
+        $this->assertEquals(4,$result);
     }
 }

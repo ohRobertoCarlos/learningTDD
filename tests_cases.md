@@ -1,27 +1,29 @@
 # Classes de equivalência
 
-## Método somar()
+## MathTest
+
+### Método somar()
 
 [x] Somar um número positivo e um negativo
 [x] Somar dois negativos
 [x] Somar dois positivos
 [x] somar com zero
 
-## Método multiplicar()
+### Método multiplicar()
 
 [x] multiplicar dois numeros negativos
 [x] multiplicar um número positivo e um negativo
 [x] multiplicar dois numeros positivos
 [x] Multiplicar por zero
 
-## Método Subtrair()
+### Método Subtrair()
 
-[] Subtrair dois numeros negativos
-[] Subtrair um número positivo e um negativo
-[] Subtrair dois numeros positivos
-[] Subtrair por zero
+[x] Subtrair dois numeros negativos
+[x] Subtrair um número positivo e um negativo
+[x] Subtrair dois numeros positivos
+[x] Subtrair por zero
 
-## Método dividir()
+### Método dividir()
 
-* Dividir números impares
-* Dividir números pares
+[x] Dividir números impares
+[x] Dividir números pares
