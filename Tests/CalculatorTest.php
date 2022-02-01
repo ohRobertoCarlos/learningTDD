@@ -1,15 +1,17 @@
 <?php
 
-use PHPUnit\Framework\TestCase;
-use App\Math;
+error_reporting(E_ERROR);
 
-class MathTest extends TestCase
+use PHPUnit\Framework\TestCase;
+use App\Calculator;
+
+class CalculatorTest extends TestCase
 {
-    protected $calculator;
+    private $calculator;
 
     protected function setUp(): void
     {
-        $this->calculator = new Math();
+        $this->calculator = new Calculator();
     }
 
     public function test_should_sum_number_negative_with_positive()
@@ -117,4 +119,5 @@ class MathTest extends TestCase
 
         $this->assertEquals(4,$result);
     }
+
 }

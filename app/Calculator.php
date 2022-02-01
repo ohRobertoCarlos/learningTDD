@@ -1,7 +1,7 @@
 <?php
 namespace App;
 
-class Math
+class Calculator
 {
 
     public function sum(int $a, int $b)
